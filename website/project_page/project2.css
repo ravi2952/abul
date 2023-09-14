@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    padding: 150px;
+}
+
+.text p {
+    color: black;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.text h3 {
+    color: orangered;
+    font-size: 35px;
+    font-weight: 800;
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+.cards {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.card1 img {
+    width: 100px;
+    height: 100px;
+}
+
+.card2 {
+    margin-left: 60px;
+}
+
+.card2 h4 {
+    color: blac;
+}
+
+.card3 {
+    margin-left: 60px;
+}
+
+.card3 h4 {
+    color: black;
+}
+
+.card4 {
+    margin-left: 50px;
+}
+
+.card4 button {
+    width: 200px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid orangered;
+    background-color: orangered;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.card4 button:hover {
+    background-color: white;
+    color: orangered;
+}
